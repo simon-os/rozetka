@@ -1,0 +1,37 @@
+$select-color: #575757;
+$border-color: #e5e5ea;
+
+.select {
+  min-width: 12.5rem;
+
+  .rs-picker-toggle {
+    outline: none !important;
+    box-shadow: none !important;
+
+    &-active,
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      border: 1px solid $border-color !important;
+    }
+
+    &-value {
+      color: $select-color !important;
+    }
+  }
+}
+
+.rs-picker-select-menu-item {
+  font-size: 0.875rem !important;
+  color: $select-color !important;
+  background-color: transparent !important;
+
+  &:hover {
+    background-color: rgba($slate-blue, .1) !important;
+    color: $select-color !important;
+  }
+
+  &-active {
+    background-color: transparent !important;
+  }
+}

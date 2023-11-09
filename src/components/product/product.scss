@@ -1,0 +1,128 @@
+.product {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+
+  &__inner {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+
+  &__full-description {
+    display: none;
+
+    content: '';
+    width: 110%;
+    height: auto;
+    box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, .2);
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    padding: 20rem 8.5% 12%;
+    background: white;
+  }
+
+  &__bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+    margin-bottom: 0.63rem;
+  }
+
+  &__add-to-favourites {
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+  }
+
+  &__image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    user-select: none;
+
+    img {
+      max-width: 100%;
+      padding: 1.2rem;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+
+  &__image-link {
+    width: 100%;
+    height: 12.5rem;
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  &__title {
+    display: block;
+    height: 2.2rem;
+    padding: 0 0.57rem;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+    overflow: hidden;
+    line-height: 1.3em;
+    font-size: 0.87em;
+    color: #000;
+    text-decoration: none;
+    text-overflow: ellipsis;
+  }
+
+  &__description {
+    margin-bottom: 0;
+    font-size: 0.8em;
+    line-height: 1.125rem;
+    z-index: 2;
+  }
+
+  &__price {
+    margin-top: auto;
+  }
+
+  &--catalog {
+    &:hover {
+      .product__inner {
+        z-index: 3;
+      }
+
+      .product__full-description {
+        display: block;
+        z-index: 2;
+      }
+    }
+
+    @include min-desktop-md {
+      .product__image-link {
+        height: 14rem;
+      }
+
+      .product__full-description {
+        padding: 21.5rem 8.5% 12%;
+      }
+    }
+  }
+
+  &--wishlist {
+    .product__add-to-favourites {
+      display: none;
+    }
+  }
+}
+
+.price {
+  display: inline-block;
+  padding: 0.25rem 0.63rem 0.25rem;
+  background: #fef2b8;
+  border-radius: 0.25rem;
+  vertical-align: middle;
+  font-family: arial;
+  font-size: 1.28462em;
+}

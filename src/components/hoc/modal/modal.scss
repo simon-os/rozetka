@@ -1,0 +1,71 @@
+.modal {
+  $border-color: lightgrey;
+
+  width: 85vw;
+  max-width: 28rem;
+  padding-bottom: 1rem;
+  position: fixed;
+  top: 30vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+  border: 1px solid $border-color;
+  border-radius: 0.625rem;
+  box-shadow: $shadow-default;
+  background: #FFF;
+
+  @include min-tablet-landscape {
+    max-width: 39rem;
+  }
+
+  &__head {
+    display: flex;
+    padding-top: 0.8rem;
+    padding-bottom: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 0.5rem;
+    border-bottom: 1px solid $border-color;
+
+    @include min-tablet-landscape {
+      padding-bottom: 0.8rem;
+      padding-top: 1rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  &__body {
+    padding-top: 2.3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    @include min-tablet-landscape {
+      padding-bottom: 1rem;
+      padding-top: 1.2rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  &__title {
+    margin-bottom: 0;
+  }
+
+  &__close-button {
+    @include button-mixin;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    margin-left: auto;
+
+    svg path {
+      fill: grey;
+      transition: fill $transition-default;
+    }
+
+    &:hover svg path {
+      fill: rgb(58, 58, 58);
+    }
+  }
+}

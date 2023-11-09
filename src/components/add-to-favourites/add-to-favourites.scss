@@ -1,0 +1,25 @@
+.add-to-favourites {
+  @include button-mixin;
+  width: 1.9rem;
+  height: 1.7rem;
+  padding: 0;
+
+  &:hover {
+    background-color: #f4faf6;
+    border-radius: .25rem;
+
+    svg path {
+      fill: $yellow;
+    }
+  }
+
+  svg {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scaleY(0.7) scaleX(0.75);
+
+    path {
+      fill: #ffa900;
+    }
+  }
+}

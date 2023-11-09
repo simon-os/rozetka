@@ -1,0 +1,13 @@
+.sidebar {
+  padding-top: 1rem;
+  border-bottom: 1px solid #eaeaea;
+
+  @include min-tablet-landscape {
+    border-right: 1px solid #eaeaea;
+    border-bottom: 0;
+  }
+
+  .spinner-wrapper {
+    padding: 10vh 0;
+  }
+}

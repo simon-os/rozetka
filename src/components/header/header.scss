@@ -1,0 +1,123 @@
+.header {
+  min-height: 6.25rem;
+  background-color: $blue;
+  display: flex;
+  align-items: center;
+
+  &__layout {
+    display: flex;
+    align-items: center;
+  }
+
+  &__button {
+    min-width: 1.8rem;
+  }
+
+  &__buttons {
+    display: none;
+
+    @include min-tablet {
+      display: inline-flex;
+    }
+  }
+
+  &__right-col {
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+    align-items: center;
+    gap: 0.3rem;
+
+    @include min-tablet {
+      margin-left: auto;
+      margin-right: unset;
+      display: flex;
+    }
+  }
+
+  &__search-bar {
+    margin-left: 1.3rem;
+
+    @include min-mobile-lg {
+      margin-left: 1.5rem;
+    }
+    
+    @include min-tablet {
+      margin-right: 1rem;
+    }
+
+    .search-bar__input {
+      &::placeholder {
+        font-size: 0.8rem;
+        opacity: 0;
+  
+        @include min-mobile-md {
+          opacity: 1;
+        }
+
+        @include min-mobile-lg {
+          font-size: inherit;
+        }
+      }
+    }
+  }
+
+  .nav-menu-dropdown {
+    margin-left: 1rem;
+    display: none;
+
+    @include min-tablet {
+      display: block;
+    }
+  }
+
+  .bm-burger-button {
+    @include min-tablet {
+      display: none;
+    }
+  }
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  user-select: none;
+  flex-shrink: 0;
+  margin-left: auto;
+  order: 1;
+
+  @include min-tablet {
+    margin-left: 0;
+    order: initial;
+  }
+
+  &__text {
+    display: none;
+    margin-left: 5px;
+    position: relative;
+
+    @include min-tablet-landscape {
+      display: block;
+    }
+  }
+
+  &__image {
+    &--desktop {
+      display: none;
+
+      @include min-tablet-landscape {
+        display: block;
+      }
+    }
+
+    &--mobile {
+      width: 2.5rem;
+      height: 2.5rem;
+
+      @include min-tablet-landscape {
+        display: none;
+      }
+    }
+  }
+}

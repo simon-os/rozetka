@@ -1,0 +1,15 @@
+@mixin button-mixin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  user-select: none;
+  color: inherit;
+  background-color: unset;
+}
+
+@mixin background-default {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

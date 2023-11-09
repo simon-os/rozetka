@@ -1,0 +1,36 @@
+.breadcrumbs {
+  $size: .6rem;
+  $spacing: .5rem;
+
+  padding: 1.25rem 0;
+  display: flex;
+  align-items: center;
+
+  &__item {
+    display: inline-flex;
+    padding-right: $spacing;
+    color: #3e77aa;
+    align-items: center;
+    font-size: 0.875rem;
+    text-decoration: none;
+
+    &:hover {
+      color: $red;
+      text-decoration: underline;
+    }
+
+    &:first-of-type::before {
+      display: none;
+    }
+
+    &:before {
+      content: '';
+      @include background-default;
+
+      width: $size;
+      height: $size;
+      margin-right: $spacing;
+      background-image: url('../../../public/assets/images/chevron.svg');
+    }
+  }
+}

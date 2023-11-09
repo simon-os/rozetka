@@ -1,0 +1,25 @@
+.centered-layout {
+  padding-bottom: 3rem;
+
+  &__inner { 
+    max-width: 50rem;
+    margin: 3rem auto 0;
+    border: 1px solid #eaeaea;
+    box-shadow: 0px 0px 0.6rem #00000003;
+  }
+
+  &__bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-top: 1px solid #eaeaea;
+
+    @include min-tablet {
+      flex-direction: initial;
+      gap: initial;
+    }
+  }
+}

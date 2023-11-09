@@ -1,0 +1,229 @@
+.personal-cabinet {
+  h1 {
+    font-size: 2rem;
+  }
+
+  &-button {
+    @include button-mixin;
+
+    &:hover svg path {
+      fill: $green;
+    }
+
+    svg {
+      width: 1.8rem;
+      height: 1.8rem;
+
+      path {
+        fill: #FFF;
+        transition: stroke $transition-default;
+      }
+    }
+  }
+}
+
+.profile-settings {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 3.5rem;
+  gap: 2rem;
+
+  @include min-tablet {
+    flex-direction: row;
+  }
+
+  &__form {
+    max-width: 26rem;
+    margin-bottom: 2.5rem;
+  }
+
+  &__col {
+    width: 100%;
+
+    @include min-tablet {
+      width: 48%;
+    }
+  }
+}
+
+.favourites {
+  padding-bottom: 3rem;
+}
+
+.orders {
+  &__entry {
+    margin-bottom: 1.25rem;
+  }
+}
+
+.order-entry {
+  padding: 1.5rem;
+  border: 1px solid #e9e9e9;
+  border-radius: r(4);
+  font-size: 0.875rem;
+  color: $lightgray;
+
+  @include min-tablet {
+    padding: 1rem;
+  }
+
+  &__layout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    @include min-laptop {
+      flex-direction: row;
+    }
+  }
+
+  &__info-row {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+
+    @include min-tablet {
+      text-align: left;
+    }
+  }
+
+  &__delivery-info {
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 0.5rem;
+
+    @include min-tablet {
+      text-align: left;
+    }
+
+    @include min-laptop {
+      width: 25%;
+      border-bottom: none;
+    }
+
+    span {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__products {
+    width: 100%;
+  }
+
+  &__total-price {
+    text-align: right;
+    padding: 0 0 1rem;
+    font-size: 1rem;
+  }
+
+  .text-black {
+    color: #212529;
+  }
+}
+
+.order-product {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eaeaea;
+  gap: 1rem;
+
+  @include min-tablet {
+    display: grid;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1.2fr;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  &__image-link {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-shrink: 0;
+
+    @include min-tablet {
+      width: 20%;
+    }
+
+    @include min-tablet {
+      width: auto;
+    }
+  }
+
+  &__title {
+    max-width: 300px;
+    text-align: center;
+
+    @include min-tablet {
+      max-width: none;
+      padding-right: 2rem;
+      text-align: left;
+    }
+  }
+
+  &__quantity {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    flex-shrink: 0;
+
+    &-button {
+      padding: .3rem;
+    }
+
+    @include min-mobile-lg {
+      width: auto;
+      justify-content: flex-start;
+    }
+  }
+
+  &__price {
+    min-width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    white-space: nowrap;
+
+    @include min-tablet {
+      margin-left: auto;
+    }
+
+    @include min-tablet {
+      margin-left: 0;
+      justify-content: flex-start;
+    }
+  }
+
+  &__sum {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    @include min-mobile-lg {
+      width: auto;
+      text-align: left;
+    }
+  }
+
+  .flex-break {
+    @include min-tablet {
+      display: none;
+    }
+  }
+}

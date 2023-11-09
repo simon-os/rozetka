@@ -1,0 +1,23 @@
+.language-switch {
+  min-width: auto;
+  $border-color: #b9b9bb;
+
+  .rs-picker-toggle {
+    min-width: 3.7rem !important;
+    padding-right: 1rem !important;
+    background-color: inherit !important;
+    border: 1px solid $border-color;
+
+    &-value {
+      color: #fff !important;
+    }
+
+    &-caret {
+      right: 6px !important;
+
+      path {
+        fill: $border-color;
+      }
+    }
+  }
+}

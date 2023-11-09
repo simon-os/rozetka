@@ -1,0 +1,164 @@
+.filters {
+  &__reset {
+    margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    padding: .625rem 1rem;
+    border: 1px solid $green;
+    border-radius: 50px;
+    background-color: transparent;
+    line-height: 1;
+    color: #333;
+    transition: background-color $transition-default,
+                color $transition-default;
+    
+    &:hover {
+      background-color: $green;
+      color: #fff;
+    }
+
+    &:active {
+      background-color: #00913f;
+    }
+  }
+
+  .bm {
+    &-burger-button {
+      width: auto;
+      height: auto;
+  
+      @include min-tablet-landscape {
+        display: none;
+      }
+    }
+
+    &-menu {
+      background: #fff;
+      padding: 2.5em 1.5em 0;
+      font-size: initial;
+    }
+
+    &-item-list {
+      color: #212529;
+      padding: 0;
+    }
+
+    &-icon {
+      padding: 0.6rem 3.5vw;
+
+      @include min-mobile-lg {
+        padding: 0.6rem 1.5rem;
+      }
+    }
+  }
+}
+
+.filters-mobile {
+  @include min-tablet-landscape {
+    display: none;
+  }
+}
+
+.filters-desktop {
+  display: none;
+
+  @include min-tablet-landscape {
+    display: block;
+  }
+}
+
+.filter {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 1.25rem;
+  padding-right: 0.9375rem;
+  
+  &__header {
+    font-size: 1em;
+    font-weight: 400;
+    padding: .69231em 2.76923em .69231em 0;
+    color: #3e77aa;
+  }
+
+  &__layout {
+    display: flex;
+
+    &--checkbox {
+      flex-direction: column;
+    }
+
+    &--pillbox {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
+
+  &__item {   
+    display: flex;
+    align-items: center;
+    min-height: 2em;
+    position: relative;
+    user-select: none;
+
+    &:hover {
+      background-color: #fcfcee;
+      cursor: pointer;
+      color: $orange;
+    }
+
+    input {
+      display: none;
+
+      &:checked ~ .filter__checkbox::before {
+        background-image: url("../../../public/assets/images/checkmark.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: $green;
+        border-color: $green;
+      }
+
+      &:checked ~ .filter__pillbox {
+        background-color: $green;
+        border-color: $green;
+        color: #fff;
+      }
+    }
+  }
+
+  &__checkbox {
+    font-family: Arial;
+    font-size: 0.9rem;
+    
+    padding-left: 2.5em;
+    vertical-align: middle;
+
+    &:before {
+      content: '';
+      width: 1.4375rem;
+      height: 1.4375rem;
+    
+      position: absolute;
+      left: 0.3125rem;
+      top: 0.25rem;
+    
+      border: 1px solid lightgrey;
+      border-radius: 2px;
+    }
+  }
+
+  &__pillbox {
+    display: inline-block;
+    min-width: 3rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    text-align: center;
+    border: 1px solid #d2d2d2;
+    border-radius: .25rem;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    text-transform: uppercase;
+    transition: background-color $transition-default,
+                border-color $transition-default,
+                color $transition-default;
+  }
+}

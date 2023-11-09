@@ -1,0 +1,33 @@
+.shopping-cart-button {
+  @include button-mixin;
+  width: 2rem;
+  height: 2.1rem;
+  padding: 0.24rem;
+  position: relative;
+
+  &:hover svg path {
+    stroke: $green;
+  }
+
+  svg path {
+    stroke: #ffffffd0;
+    transition: stroke $transition-default;
+  }
+
+  &__quantity {
+    min-width: r(20);
+    height: r(20);
+    padding-left: r(4);
+    padding-right: r(4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $green;
+    color: #fff;
+    font-size: 0.75rem;
+    position: absolute;
+    top: -15%;
+    right: -15%;
+    border-radius: r(50);
+  }
+}

@@ -1,0 +1,14 @@
+@function strip-units($value) {
+	@return ($value / ($value * 0 + 1));
+}
+
+@function r($pxval) {
+	@if not unitless($pxval) {
+		$pxval: strip-units($pxval);
+	}
+	$base: $font-size-base;
+	@if not unitless($base) {
+		$base: strip-units($base);
+	}
+	@return ($pxval / $base) * 1rem;
+}

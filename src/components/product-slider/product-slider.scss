@@ -1,0 +1,42 @@
+.product-slider {
+  --swiper-scrollbar-bottom: 0;
+  --swiper-scrollbar-size: 2px;
+  --swiper-scrollbar-drag-bg-color: #d2d2d2;
+  --swiper-scrollbar-bg-color: #f5f5f5;
+  --swiper-navigation-color: #000;
+
+  padding: 2rem 0;
+
+  .swiper-scrollbar-drag {
+    transition: $transition-default;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #a6a5a5;
+    }
+  }
+
+  .swiper-button-prev, 
+  .swiper-button-next {
+    $button-color: #f5f5f5;
+
+    width: r(40);
+    height: r(40);
+    border-radius: 50%;
+    background-color: $button-color;
+    transition: background-color $transition-default;
+
+    &:hover {
+      background-color: darken($button-color, 7%);
+    }
+
+    &::after {
+      font-size: 1.15rem;
+    }
+  }
+
+  .swiper-button-disabled {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+  }
+}

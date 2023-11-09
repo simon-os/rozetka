@@ -1,0 +1,61 @@
+.auth {
+  .react-tabs {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    user-select: none;
+
+    @include min-tablet-landscape {
+      flex-direction: row;
+    }
+
+    &__tab {
+      width: 8rem;
+      text-align: center;
+      padding: 0.6rem 1rem;
+      border: none;
+      background-color: #f1f1f18f;
+
+      &-panel {
+        width: 100%;
+      }
+
+      &-list {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 1.25rem;
+        border: none;
+
+        @include min-tablet-landscape {
+          flex-direction: column;
+          margin-top: 1.7rem;
+          margin-right: 3rem;
+          margin-bottom: 0;
+        }
+      }
+      
+      &--selected {
+        background-color: $green;
+        color: #fff;
+        border-radius: 0;
+        border: none;
+      }
+    }
+  }
+}
+
+.button-log-out {
+  @include button-mixin;
+
+  &:hover svg path {
+    fill: $green;
+  }
+
+  svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: #fff;
+    transition: fill $transition-default;
+  }
+}

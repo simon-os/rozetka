@@ -1,0 +1,501 @@
+{
+  "interface": {
+    "headings": {
+      "home.main": "Главная",
+      "cabinet.settings": "Настройки",
+      "cabinet.favourites": "Избранное",
+      "cabinet.orders": "Мои заказы",
+      "favourites": "Добавленные в избранное",
+      "watched": "Последние просмотренные товары",
+      "chooseCategory": "Выберите категорию",
+      "description": "Описание",
+      "features": "Характеристики",
+      "auth": "Вход",
+      "logIn": "Вход",
+      "register": "Регистрация"
+    },
+  
+    "buttons": {
+      "catalog": "Каталог",
+      "filters": "Filters",
+      "resetFilters": "Сбросить фильтры",
+      "search": "Найти",
+      "confirm": "Подтвердить",
+      "removeAccount": "Удалить аккаунт",
+      "shoppingCart": "Корзина",
+      "personalCabinet": "Личный кабинет",
+      "logIn": "Войти",
+      "register": "Зарегистрироваться",
+      "logOut": "Выйти из профиля",
+      "continueShopping": "Продолжить покупки",
+      "back": "Назад"
+    },
+  
+    "messages": {
+      "wrongLoginPassword": "Неправильный логин/пароль",
+      "catalogLoadingError": "Ошибка загрузки каталога",
+      "itemsNotFound": "Товары не найдены",
+      "noFilters": "Нет фильтров для данной категории",
+      "userAlreadyRegistered": "Пользователь с таким именем уже зарегистрирован",
+      "userRegistrationSuccess": "Пользователь успешно зарегистрирован",
+      "userRegistrationError": "Ошибка регистрации",
+      "productAddedToCart": "Товар добавлен в корзину",
+      "authToSaveFavourites": "Зарегистрируйтесь или войдите в профиль, чтобы добавить в избранное",
+      "userAccountLogout": "Вы вышли из аккаунта",
+      "loginLengthError": "Логин должен состоять минимум из 3 символов",
+      "passwordLengthError": "Пароль должен состоять минимум из 5 символов",
+      "changeLoginErrorAccountExists": "Аккаунт с таким логином уже существует",
+      "loginChangeSuccess": "Вы успешно изменили логин",
+      "currentPasswordIncorrect": "Неверный текущий пароль",
+      "newPasswordIdenticalError": "Новый пароль не может быть таким же как старый",
+      "newPasswordRepeatError": "Введите новый пароль идентично два раза",
+      "passwordChangeSuccess": "Пароль успешно изменен",
+      "accountRemovalConfirmation": "Вы уверены, что хотите удалить аккаунт?",
+      "accountRemovalSuccess": "Ваш аккаунт удален",
+      "logOutSuccess": "Вы вышли из аккаунта",
+      "pageNotFound": "Страница не найдена.",
+      "noItemsInShoppingCart": "Нет товаров в корзине",
+      "errorItemCannotBeLoaded": "Ошибка загрузки товара",
+      "filtersLoadingError": "Ошибка загрузки фильтров",
+      "somethingWentWrong": "Что-то пошло не так"
+    },
+  
+    "filters": {
+      "manufacturer": "Производитель",
+      "processor": "Процессор",
+      "ramSize": "Объем оперативной памяти",
+      "displaySize": "Диагональ экрана",
+      "displayResolution": "Разрешение",
+      "material": "Материал",
+      "size": "Размер",
+      "color": "Цвет",
+      "print": "Принт",
+      "price": "Цена",
+      "gigabytes": "ГБ",
+
+      "options": {
+        "blue": "Синий",
+        "black": "Черный",
+        "white": "Белый",
+        "red": "Красный",
+        "gray": "Серый",
+        "print": "Рисунок",
+        "oneColor": "Однотонный",
+        "noPrint": "Без рисунка",
+        "text": "Надпись"  
+      }
+    },
+  
+    "forms": {
+      "login": "Логин",
+      "password": "Пароль",
+      "searchBar.placeholder": "Я ищу...",
+      "changeLogin": "Сменить логин",
+      "changePassword": "Сменить пароль",
+      "enterPassword": "Введите пароль",
+      "enterCurrentPassword": "Ведите текущий пароль",
+      "enterNewPassword": "Ведите новый пароль",
+      "repeatNewPassword": "Повторите новый пароль",
+      "nameSurname": "Имя, фамилия",
+      "phoneNumber": "Номер телефона",
+      "country": "Страна",
+      "city": "Город",
+      "streetHouse": "Улица, дом"
+    },
+  
+    "navigation": {
+      "categories": {
+        "notebooks": "Ноутбуки",
+        "tshirts": "Футболки"
+      },
+      "pages": {
+        "home": "Домашняя",
+        "catalog": "Каталог",
+        "notebooks": "Ноутбуки",
+        "tshirts": "Футболки",
+        "cabinet.settings": "Настройки",
+        "cabinet.favourites": "Избранное",
+        "cabinet.orders": "Мои заказы"
+      }
+    },
+
+    "pagesContent": {
+      "deliveryAddress": "Адрес доставки",
+      "price": "Цена",
+      "quantity": "Количество",
+      "sum": "Сумма",
+      "total": "Итого",
+      "from": "от",
+      "сheckout": "Оформить заказ",
+      "yourInfo": "Ваши данные",
+      "delivery": "Доставка",
+      "order": "Заказ",
+      "thankYouPage": {
+        "orderWillBeShippedSoon": "Заказ будет отправлен в ближайшее время.",
+        "youCanSeeOrdersIn": "Вы можете посмотреть заказы в",
+        "personalCabinet": "личном кабинете"
+      }
+    },
+  
+    "sorting": {
+      "placeholder": "Сортировать товары",
+      "priceAscending": "Цена по возрастанию",
+      "priceDescending": "Цена по убыванию"
+    },
+  
+    "itemsPerPage": {
+      "many": "{{quantity}} товаров на странице"
+    }
+  },
+
+  "products": {
+    "notebooks": {
+      "0": {
+        "title": "Ноутбук Acer Swift 7 SF714-52T-746E",
+        "description": "Экран 14' IPS (1920x1080) Full HD, Multi-touch, глянцевый / Intel Core i7-8500Y (1.5 - 4.2 ГГц) / RAM 16 ГБ / SSD 512 ГБ / Intel UHD Graphics 615 / без ОД / Wi-Fi / Bluetooth / веб-камера / Windows 10 Home 64bit / 0.89 кг / черный"  ,
+        "features": {
+          "manufacturer": "Acer",
+          "displaySize": "14'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i7"
+        }
+      },
+      "1": {
+        "title": "Ноутбук Dell XPS 13 9380" ,
+        "description": "Экран 17.3' IPS (1920x1080) Full HD, матовый / Intel Core i7-8550U (1.8 - 4.0 ГГц) / RAM 16 ГБ / SSD 512 ГБ / Intel UHD Graphics 620 / DVD+/-RW / Wi-Fi / Bluetooth / веб-камера / Windows 10 Pro / 2.8 кг / серый" ,
+        "features": {
+          "manufacturer": "Dell",
+          "displaySize": "17.3'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i7"
+        }
+      },
+      "2": {
+        "title": "Ноутбук ASUS ZenBook S13",
+        "description": "Экран 13.9' IPS (1920x1080) Full HD, матовый / Intel Core i7-8565U (1.8 - 4.6 ГГц) / RAM 16 ГБ / SSD 1 ТБ / Intel UHD Graphics 620 / без ОД / Wi-Fi / Bluetooth / веб-камера / Windows 10 Home / 1.1 кг / серебристый / чехол",
+        "features": {
+          "manufacturer": "Asus",
+          "displaySize": "13.3'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i7"
+        }
+      },
+      "3": {
+        "title": "Ноутбук ASUS FX504GM",
+        "description": "Экран 15.6' (1920x1080) Full HD, матовый / Intel Core i5-8300H (2.3 - 4.0 ГГц) / RAM 8 ГБ / 1 ТБ + 8 ГБ SSHD / nVidia GeForce GTX 1060, 6 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / Windows 10 Home / 2.3 кг / черный",
+        "features": {
+          "manufacturer": "Asus",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "8 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "4": {
+        "title": "Ноутбук ASUS ZenBook Pro UX550GD",
+        "description": "Экран 15.6' (1920x1080) Full HD, матовый / Intel Core i5-8300H (2.3 - 4.0 ГГц) / RAM 8 ГБ / SSD 256 ГБ / nVidia GeForce GTX 1050, 4 ГБ / без ОД / Wi-Fi / Bluetooth / веб-камера / Windows 10 Pro 64bit / 1.89 кг / синий",
+        "features": {
+          "manufacturer": "Asus",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "8 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "5": {
+        "title": "Ноутбук HP Omen 15 (4PR16EA)",
+        "description": "Экран 15.6' IPS (1920x1080) Full HD, глянцевый с антибликовым покрытием / Intel Core i7-8750H (2.2 - 4.1 ГГц) / RAM 8 ГБ / HDD 1 ТБ + SSD 128 ГБ / nVidia GeForce GTX 1050 Ti , 4 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / Windows 10 Home 64bit / 2.38 кг / черный",
+        "features": {
+          "manufacturer": "HP",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "8 GB",
+          "processor": "Intel Core i7"
+        }
+      },
+      "6": {
+        "title": "Ноутбук Lenovo IdeaPad 330S-15IKB",
+        "description": "Экран 15.6' IPS (1920x1080) Full HD, глянцевый с антибликовым покрытием / Intel Core i5-8250U (1.6 - 3.4 ГГц) / RAM 6 ГБ / HDD 1 ТБ / nVidia GeForce GTX 1050, 4 ГБ / без ОД / Wi-Fi / Bluetooth / веб-камера / Windows 10 Home 64bit / 1.87 кг / серый",
+        "features": {
+          "manufacturer": "Lenovo",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "6 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "7": {
+        "title": "Ноутбук Dell Latitude (N013L530013ERC_W10)",
+        "description": "Экран 13.3' WVA (1920x1080) Full HD, матовый / Intel Core i5-8365U (1.6 - 4.1 ГГц) / RAM 16 ГБ / SSD 512 ГБ / Intel UHD Graphics 620 / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / Windows 10 Pro 64bit / 1.24 кг / черный",
+        "features": {
+          "manufacturer": "Dell",
+          "displaySize": "13.3'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "8": {
+        "title": "Ноутбук Acer Predator Helios 500PH517-51",
+        "description": "Экран 17.3' IPS (1920x1080) Full HD, матовый / Intel Core i5-8300H (2.3 - 4.0 ГГц) / RAM 16 ГБ / HDD 1 ТБ + SSD 256 ГБ / nVidia GeForce GTX 1070, 8 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / Windows 10 Home / 4 кг / черный",
+        "features": {
+          "manufacturer": "Acer",
+          "displaySize": "17.3'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "9": {
+        "title": "Ноутбук HP 15s-eq2056ua (4A7P1EA)",
+        "description": "Экран 15.6' IPS (1920x1080) Full HD, матовый / AMD Ryzen 3 5300U (2.6 - 3.8 ГГц) / RAM 16 ГБ / SSD 512 ГБ / AMD Radeon Graphics / без ОД / Wi-Fi / Bluetooth / веб-камера / DOS / 1.69 кг / серебристый",
+        "features": {
+          "manufacturer": "HP",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "AMD Ryzen 3"
+        }
+      },
+      "10": {
+        "title": "Ноутбук HP Pavilion 15-eh1106ua (4A7N2EA)",
+        "description": "Экран 15.6' IPS (1920x1080) Full HD, матовый / AMD Ryzen 5 5500U (2.1 — 4.0 ГГц) / RAM 16 ГБ / SSD 512 ГБ / AMD Radeon Graphics / без ОД / Wi-Fi / Bluetooth / веб-камера / DOS / 1.75 кг / серебристый",
+        "features": {
+          "manufacturer": "HP",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "AMD Ryzen 5"
+        }
+      },
+      "11": {
+        "title": "Ноутбук Lenovo IdeaPad 3 15IAU7 (82RK00TWRA)",
+        "description": "Экран 15.6' IPS (1920x1080) Full HD, матовый / Intel Core i5-1235U (3.3 - 4.4 ГГц) / RAM 16 ГБ / SSD 512 ГБ / Intel Iris Xe Graphics / без ОД / Wi-Fi / Bluetooth / веб-камера / без ОС / 1.63 кг / серый",
+        "features": {
+          "manufacturer": "Lenovo",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "12": {
+        "title": "Ноутбук Lenovo Legion 5 Pro-16",
+        "description": "Ноутбук Lenovo Legion 5 Pro-16 / AMD Ryzen™ 7 5800H / 32 GB RAM / SSD 512 GB / NVIDIA GeForce RTX 3050 Ti + видеокарта AMD Radeon™ / Матовый, светодиодный, IPS / для игр",
+        "features": {
+          "manufacturer": "Lenovo",
+          "displaySize": "16'",
+          "displayResolution": "2560x1600",
+          "ramSize": "32 GB",
+          "processor": "AMD Ryzen 7"
+        }
+      },
+      "13": {
+        "title": "Ноутбук ASUS ROG Zephyrus G14 GA401QH (GA401QH-211.ZG14BL)",
+        "description": "Экран 14' IPS (1920x1080) Full HD, матовый / AMD Ryzen 7 5800HS (2.8 - 4.4 ГГц) / RAM 16 ГБ / SSD 512 ГБ / nVidia GeForce GTX 1650, 4 ГБ / без ОД / Wi-Fi / Bluetooth / Windows 10 Home / 1.7 кг / серый",
+        "features": {
+          "manufacturer": "ASUS",
+          "displaySize": "14'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "AMD Ryzen 7"
+        }
+      },
+      "14": {
+        "title": "Ноутбук ASUS VivoBook 14 F415EA (F415EA-AS31) Gray",
+        "description": "Экран 14' (1920x1080) Full HD, матовый / Intel Core i3-1115G4 (3.0 - 4.1 ГГц) / RAM 4 ГБ / SSD 128 ГБ / Intel UHD Graphics / без ОД / Wi-Fi / Bluetooth / веб-камера / Windows 11 Home / 1.4 кг / серый",
+        "features": {
+          "manufacturer": "ASUS",
+          "displaySize": "14'",
+          "displayResolution": "1920x1080",
+          "ramSize": "4 GB",
+          "processor": "Intel Core i3"
+        }
+      },
+      "15": {
+        "title": "Ноутбук ASUS ROG Strix G18 (2023) G814JI-N6070 (90NR0D01-M003B0)",
+        "description": "Экран 18' IPS (2560x1600) WQXGA 240 Гц, матовый / Intel Core i9-13980HX (4.0 - 5.6 ГГц) / RAM 32 ГБ / SSD 1 ТБ / nVidia GeForce RTX 4070, 8 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / без ОС / 3.0 кг / серый",
+        "features": {
+          "manufacturer": "ASUS",
+          "displaySize": "18'",
+          "displayResolution": "2560x1600",
+          "ramSize": "32 GB",
+          "processor": "Intel Core i9"
+        }
+      },
+      "16": {
+        "title": "Ноутбук ACER Predator Helios 18 PH18-71-90BJ",
+        "description": "Gaming ACER Predator Helios 18 PH18-71-90BJ, (NHQKREX006), Intel Core i9-13900HX, 5.4GHz, 18' WQXGA, 250Hz, 32GB, SSD 2TB, NVIDIA GeForce RTX 4080 12GB, Windows 11 Home",
+        "features": {
+          "manufacturer": "ACER",
+          "displaySize": "18'",
+          "displayResolution": "2560x1600",
+          "ramSize": "32 GB",
+          "processor": "Intel Core i9"
+        }
+      },
+      "17": {
+        "title": "Ноутбук ASUS ProArt Studiobook 16 OLED H7600ZX-L2033X",
+        "description": "Экран 16' OLED (3840x2400) WQUXGA, глянцевый / Intel Core i9-12900H (3.8 - 5.0 ГГц) / RAM 64 ГБ / SSD 2 ТБ / nVidia GeForce RTX 3080 Ti, 16 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / Windows 11 Pro / 2.4 кг / черный",
+        "features": {
+          "manufacturer": "ASUS",
+          "displaySize": "16'",
+          "displayResolution": "2560x1600",
+          "ramSize": "64 GB",
+          "processor": "Intel Core i9"
+        }
+      },
+      "18": {
+        "title": "Ноутбук Lenovo ThinkPad P16 Gen 1 (21D6003QRA)",
+        "description": "Экран 16' IPS (2560x1600) WQXGA, матовый / Intel Core i9-12950HX (3.6 - 5.0 ГГц) / RAM 64 ГБ / SSD 1 ТБ / nVidia RTX A4500, 16 ГБ / без ОД / Wi-Fi / Bluetooth / веб-камера / Windows 11 Pro / 2.95 кг / серый",
+        "features": {
+          "manufacturer": "Lenovo",
+          "displaySize": "16'",
+          "displayResolution": "2560x1600",
+          "ramSize": "64 GB",
+          "processor": "Intel Core i9"
+        }
+      },
+      "19": {
+        "title": "Ноутбук Dell Latitude 3410 (N001L341014GE_UBU)",
+        "description": "Экран 14' (1366x768) WXGA HD / Двухъядерный Intel Core i3-10110U (2.1 - 4.1 ГГц) / RAM 4 ГБ DDR4 / HDD 1 ТБ / Интегрированная видеокарта / Linux / Черный",
+        "features": {
+          "manufacturer": "Dell",
+          "displaySize": "14'",
+          "displayResolution": "1366x768",
+          "ramSize": "4 GB",
+          "processor": "Intel Core i3"
+        }
+      },
+      "20": {
+        "title": "Ноутбук Dell Latitude 3490",
+        "description": "Dell Latitude 3490 / 14' (1366x768) TN / Intel Core i3-8130U (2 (4) ядра по 2.2 - 3.4 GHz) / 8 GB DDR4 / 256 GB SSD + 250 GB HDD / Intel UHD Graphics 620 / WebCam / HDMI",
+        "features": {
+          "manufacturer": "Dell",
+          "displaySize": "14'",
+          "displayResolution": "1366x768",
+          "ramSize": "8 GB",
+          "processor": "Intel Core i3"
+        }
+      },
+      "21": {
+        "title": "Ноутбук 17.3' HP 17-cn0010ca (2L7P6UA)",
+        "description": "HP 17-cn0010ca / 17.3' TN+film (1600x900) HD 60 Гц / Intel Pentium Silver N6000 (1.1 - 3.3 Ггц) / RAM 8 ГБ / SSD 256 ГБ / Интегрированная, Intel UHD Graphics / Windows 10 Home / Black",
+        "features": {
+          "manufacturer": "HP",
+          "displaySize": "17.3'",
+          "displayResolution": "1600x900",
+          "ramSize": "8 GB",
+          "processor": "Intel Core i3"
+        }
+      },
+      "22": {
+        "title": "Ноутбук Lenovo V15 (82KB0006RA)",
+        "description": "Экран 15.4' (1280x800) WXGA TN+film матовый / Двухъядерный Intel Core i3-1115G4 (3.0 - 4.1 ГГц) / 8 ГБ DDR4 / 256 ГБ SSD / Интегрированная видеокарта / Windows 11 Professional / Черный",
+        "features": {
+          "manufacturer": "Lenovo",
+          "displaySize": "15.6'",
+          "displayResolution": "1280x800",
+          "ramSize": "6 GB",
+          "processor": "Intel Core i3"
+        }
+      },
+      "23": {
+        "title": "Ноутбук ASUS VivoBook 17 D712DA",
+        "description": "Ноутбук ASUS VivoBook 17 D712DA AMD Ryzen™ 3 3250U / ОЗУ 8 GB/ SSD 512 GB/ Для Мультимедиа",
+        "features": {
+          "manufacturer": "ASUS",
+          "displaySize": "17.3'",
+          "displayResolution": "1600x900",
+          "ramSize": "8 GB",
+          "processor": "AMD Ryzen 3"
+        }
+      }
+    },
+    "tshirts": {
+      "24": {
+        "title": "Футболка",
+        "description": "Черная, без рисунка",
+        "features": {
+          "color": "Черный",
+          "size": "M",
+          "material": "Хлопок",
+          "print": "Без рисунка"
+        }
+      },
+      "25": {
+        "title": "Футболка",
+        "description": "Белая, без рисунка",
+        "features": {
+          "color": "Белый",
+          "size": "L",
+          "material": "Хлопок",
+          "print": "Без рисунка"
+        }
+      },
+      "26": {
+        "title": "Футболка",
+        "description": "Синяя с рисунком",
+        "features": {
+          "color": "Синий",
+          "size": "L",
+          "material": "Полиэстер",
+          "print": "С рисунком"
+        }
+      },
+      "27": {
+        "title": "Футболка Fruit of the loom",
+        "description": "Состав 100% хлопок. Плотность от 160 г/м2. Метод печати на светлых тканях – прямая цифровая печать. На темных тканях – термопленки (флекс). Износоустойчивость гарантируем! Для того что бы футболка прослужила вам долго – рекомендуем стирать изделие наизнанку при температуре до 40 градусов, в режиме ручной или деликатной стирке.",
+        "features": {
+          "color": "Серый",
+          "size": "S",
+          "material": "Хлопок",
+          "print": "С рисунком"
+        }
+      },
+      "28": {
+        "title": "Футболка Fruit of the loom",
+        "description": "Состав 100% хлопок. Плотность от 160 г/м2. Метод печати на светлых тканях – прямая цифровая печать. На темных тканях – термопленки (флекс). Износоустойчивость гарантируем! Для того что бы футболка прослужила вам долго – рекомендуем стирать изделие наизнанку при температуре до 40 градусов, в режиме ручной или деликатной стирке.",
+        "features": {
+          "color": "Белый",
+          "size": "XL",
+          "material": "Хлопок",
+          "print": "С рисунком"
+        }
+      },
+      "29": {
+        "title": "Футболка Sprintom",
+        "description": "Футболка мужская с принтом Sprintom. Принт наносится под заказ. Пошив - Украина. Материал: хлопок 100%. Сезон: весна/лето",
+        "features": {
+          "color": "Черный",
+          "size": "L",
+          "material": "Хлопок",
+          "print": "С рисунком"
+        }
+      },
+      "30": {
+        "title": "Футболка Jiva",
+        "description": "Материал футболки - 100% хлопок, печать принта методом шелкографии. Авторский рисунок от дизайнера бренда.",
+        "features": {
+          "color": "Серый",
+          "size": "XL",
+          "material": "Полиэстер",
+          "print": "С рисунком"
+        }
+      },
+      "31": {
+        "title": "Футболка Jiva",
+        "description": "OVS – это популярный и любимый многими бренд одежды, основанный в 1972 году в небольшом итальянском городе Падуе. Торговая марка является частью компании Gruppo Coin и занимается производством женской, мужской, детской одежды, а также обуви и аксессуаров.",
+        "features": {
+          "color": "Белый",
+          "size": "S",
+          "material": "Полиэстер",
+          "print": "С текстом"
+        }
+      }
+    }
+  }
+}

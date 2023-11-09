@@ -1,0 +1,14 @@
+.catalog-nav-page {
+  &__heading {
+    padding: 1rem 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .columns-layout {
+    flex-direction: column-reverse;
+
+    @include min-tablet-landscape {
+      flex-direction: column;
+    }
+  }
+}

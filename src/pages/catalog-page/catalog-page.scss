@@ -1,0 +1,35 @@
+.catalog-page {
+  padding-bottom: 1rem;
+
+  @include min-tablet-landscape {
+    padding-bottom: 0;
+  }
+
+  .columns-layout {
+    position: relative;
+
+    @include min-tablet-landscape {
+      position: static;
+    }
+  }
+
+  .sidebar {
+    border: none;
+    padding: 0;
+
+    @include min-tablet-landscape {
+      padding-top: 1rem;
+      border-right: 1px solid #eaeaea;
+    }
+  }
+
+  .filters {
+    position: absolute;
+    top: 1.4rem;
+
+    @include min-tablet-landscape {
+      position: static;
+      top: 0;
+    }
+  }
+}

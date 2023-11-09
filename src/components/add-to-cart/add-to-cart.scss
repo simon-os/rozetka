@@ -1,0 +1,39 @@
+.add-to-cart {
+  @include button-mixin;
+  padding: r(8) r(16);
+  gap: r(12);
+  border-radius: r(4);
+  color: #FFF;
+  background-color: $green;
+  transition: background-color $transition-default;
+
+  &:hover {
+    background-color: lighten($green, 5%);
+  }
+
+  svg {
+    width: r(24);
+    height: r(24);
+
+    path {
+      stroke: #FFF;
+    }
+  }
+
+  &--sm {
+    width: r(32);
+    height: r(32);
+    padding: 0;
+    padding-right: .15rem;
+    transition: none;
+    background-color: transparent;
+
+    svg path {
+      stroke: $green;
+    }
+
+    &:hover {
+      background-color: rgba($green, 0.06);
+    }
+  }
+}

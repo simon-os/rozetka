@@ -1,0 +1,63 @@
+.search-bar {
+  width: 100%;
+  max-width: 500px;
+  height: 2.5rem;
+  position: relative;
+
+  &::before {
+    @include min-mobile-lg {
+      content: '';
+      width: 1.2rem;
+      height: 1.1rem;
+      display: flex;
+      position: absolute;
+      left: 1rem;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      background-image: url('../../../public/assets/images/search-icon.svg');
+      @include background-default;
+    }
+  }
+
+  &__button {
+    @include button-mixin;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: .875rem;
+    border-radius: 0 .1875rem .1875rem 0;
+    background-color: $green;
+    color: #fff;
+    transition: background-color $transition-default;
+
+    @include min-mobile-lg {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      font-size: 1rem;
+    }
+
+    &:hover {
+      background-color: lighten($green, 3.5%);
+    }
+    &:active {
+      background-color: lighten($green, 5%);
+    }
+  }
+
+  &__input {
+    height: 100%;
+    width: 100%;
+    padding-left: .5rem;
+    padding-right: 3.2rem;
+    font-size: 0.9rem;
+
+    @include min-mobile-lg {
+      padding-left: 2.8rem;
+      padding-right: 5.1rem;
+    }
+  }
+}

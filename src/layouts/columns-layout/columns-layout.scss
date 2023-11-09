@@ -1,0 +1,24 @@
+.columns-layout {
+  &__inner {
+    display: flex;
+    flex-direction: column;
+  
+    @include min-tablet-landscape {
+      display: grid;
+      min-height: 90vh;
+      grid-template-columns: 23.3% 76.7%;
+    }
+  
+    @include min-laptop {
+      grid-template-columns: 19.6% 80.4%;
+    }
+  
+    @include min-desktop {
+      grid-template-columns: 17% 83%;
+    }
+  
+    @include min-desktop-md {
+      grid-template-columns: 15% 85%;
+    }
+  }
+}

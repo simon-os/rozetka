@@ -1,0 +1,86 @@
+$green: #00a046;
+$orange: #ff7878;
+$red: #f84147;
+$yellow: #ffa900;
+$slate-blue: #778899ad;
+$gray: #4e4c4c;
+$lightgray: #888888;
+$blue: #122538;
+
+$font-size-base: 16px;
+$transition-default: .1s ease;
+$shadow-default: 0px 1px 6px 2px rgba(0, 0, 0, .2);
+
+// max
+@mixin max-desktop-lg {
+	@media only screen and (max-width: 1799px) { @content; }
+}
+
+@mixin max-desktop {
+	@media only screen and (max-width: 1439px) { @content; }
+}
+
+@mixin max-desktop-md {
+	@media only screen and (max-width: 1550px) { @content; }
+}
+
+@mixin max-laptop {
+	@media only screen and (max-width: 1199px) { @content; }
+}
+
+@mixin max-tablet-landscape {
+	@media only screen and (max-width: 991px) { @content; }
+}
+
+@mixin max-tablet {
+	@media only screen and (max-width: 767px) { @content; }
+}
+
+@mixin max-mobile-lg {
+	@media only screen and (max-width: 540px) { @content; }
+}
+
+@mixin max-mobile-md {
+	@media only screen and (max-width: 385px) { @content; }
+}
+
+@mixin max-mobile {
+	@media only screen and (max-width: 350px) { @content; }
+}
+
+// min
+@mixin min-mobile {
+	@media only screen and (min-width: 350px) { @content; }
+}
+
+@mixin min-mobile-md {
+	@media only screen and (min-width: 385px) { @content; }
+}
+
+@mixin min-mobile-lg {
+	@media only screen and (min-width: 540px) { @content; }
+}
+
+@mixin min-tablet {
+	@media only screen and (min-width: 768px) { @content; }
+}
+
+@mixin min-tablet-landscape {
+	@media only screen and (min-width: 992px) { @content; }
+}
+
+@mixin min-laptop {
+	@media only screen and (min-width: 1200px) { @content; }
+}
+
+@mixin min-desktop {
+	@media only screen and (min-width: 1440px) { @content; }
+}
+
+@mixin min-desktop-md {
+	@media only screen and (min-width: 1550px) { @content; }
+}
+
+@mixin min-desktop-lg {
+	@media only screen and (min-width: 1800px) { @content; }
+}

@@ -1,0 +1,502 @@
+{
+  "interface": {
+    "headings": {
+      "home.main": "Home",
+      "cabinet.settings": "Settings",
+      "cabinet.favourites": "Favourites",
+      "cabinet.orders": "My Orders",
+      "favourites": "Added To Favourites",
+      "watched": "Last Watched Items",
+      "chooseCategory": "Choose Category",
+      "description": "Description",
+      "features": "Features",
+      "auth": "Auth",
+      "logIn": "Log In",
+      "register": "Register"
+    },
+  
+    "buttons": {
+      "catalog": "Catalog",
+      "filters": "Filters",
+      "resetFilters": "Reset Filters",
+      "search": "Find",
+      "confirm": "Confirm",
+      "removeAccount": "Remove Account",
+      "shoppingCart": "Shopping Cart",
+      "personalCabinet": "Personal Cabinet",
+      "logIn": "Log In",
+      "register": "Register",
+      "logOut": "Log Out",
+      "continueShopping": "Сontinue Shopping",
+      "back": "Back"
+    },
+  
+    "messages": {
+      "wrongLoginPassword": "Wrong login/password",
+      "catalogLoadingError": "Catalog loading error",
+      "itemsNotFound": "No items were found",
+      "noFilters": "No filters for this category",
+      "wrongLoginOrPassword": "Incorrect login/password",
+      "userAlreadyRegistered": "A user with this name has already been registered",
+      "userRegistrationSuccess": "User successfully registered",
+      "userRegistrationError": "Registration error",
+      "productAddedToCart": "Item has been added to cart",
+      "authToSaveFavourites": "Register or log in to your profile to add to favorites",
+      "userAccountLogout": "You've logged out of your account",
+      "loginLengthError": "Login must be at least 3 characters long",
+      "passwordLengthError": "Password length must be at least 5 characters long",
+      "changeLoginErrorAccountExists": "An account with this login already exists",
+      "loginChangeSuccess": "You have successfully changed your login",
+      "currentPasswordIncorrect": "Invalid current password",
+      "newPasswordIdenticalError": "The new password cannot be the same as the old password",
+      "newPasswordRepeatError": "Enter the new password identically twice",
+      "passwordChangeSuccess": "Password successfully changed",
+      "accountRemovalConfirmation": "Are you sure you want to delete the account?",
+      "accountRemovalSuccess": "Your account has been deleted",
+      "logOutSuccess": "You've logged out of your account",
+      "pageNotFound": "Page not found.",
+      "noItemsInShoppingCart": "No items in cart",
+      "errorItemCannotBeLoaded": "Error, item cannot be loaded",
+      "filtersLoadingError": "Filters loading error",
+      "somethingWentWrong": "Something went wrong"
+    },
+  
+    "filters": {
+      "manufacturer": "Manufacturer",
+      "processor": "Processor",
+      "ramSize": "RAM Size",
+      "displaySize": "Display Size",
+      "displayResolution": "Display Resolution",
+      "material": "Material",
+      "size": "Size",
+      "color": "Color",
+      "print": "Print",
+      "price": "Price",
+      "gigabytes": "GB",
+
+      "options": {
+        "blue": "Blue",
+        "black": "Black",
+        "white": "White",
+        "red": "Red",
+        "gray": "Gray",
+        "print": "Print",
+        "oneColor": "One Color",
+        "noPrint": "No Print",
+        "text": "With Text"
+      }
+    },
+  
+    "forms": {
+      "login": "Login",
+      "password": "Password",
+      "searchBar.placeholder": "I'm searching for...",
+      "changeLogin": "Change Login",
+      "changePassword": "Change Password",
+      "enterPassword": "Enter Password",
+      "enterCurrentPassword": "Enter Current Password",
+      "enterNewPassword": "Enter New Password",
+      "repeatNewPassword": "Repeat New Password",
+      "nameSurname": "Name, Surname",
+      "phoneNumber": "Phone Number",
+      "country": "Country",
+      "city": "City",
+      "streetHouse": "Street, House"
+    },
+  
+    "navigation": {
+      "categories": {
+        "notebooks": "Laptops",
+        "tshirts": "T-Shirts"
+      },
+      "pages": {
+        "home": "Home",
+        "catalog": "Catalog",
+        "notebooks": "Laptops",
+        "tshirts": "T-Shirts",
+        "cabinet.settings": "Settings",
+        "cabinet.favourites": "Favourites",
+        "cabinet.orders": "My Orders"
+      }
+    },
+
+    "pagesContent": {
+      "deliveryAddress": "Delivery Address",
+      "price": "Price",
+      "quantity": "Quantity",
+      "sum": "Sum",
+      "total": "Total",
+      "from": "from",
+      "сheckout": "Сheckout",
+      "yourInfo": "Your Info",
+      "delivery": "Delivery",
+      "order": "Order",
+      "thankYouPage": {
+        "orderWillBeShippedSoon": "The order will be shipped soon.",
+        "youCanSeeOrdersIn": "You can view the orders in",
+        "personalCabinet": "personal cabinet"
+      }
+    },
+  
+    "sorting": {
+      "placeholder": "Sort Items",
+      "priceAscending": "Price Ascending",
+      "priceDescending": "Price Descending"
+    },
+  
+    "itemsPerPage": {
+      "many": "{{quantity}} items on the page"
+    }
+  },
+
+  "products": {
+    "notebooks": {
+      "0": {
+        "title": "Laptop Acer Swift 7 SF714-52T-746E",
+        "description": "Display 14' IPS (1920x1080) Full HD, Multi-touch, glossy / Intel Core i7-8500Y (1.5 - 4.2 GHz) / RAM 16 GB / SSD 512 GB / Intel UHD Graphics 615 / no OD / Wi-Fi / Bluetooth / webcam / Windows 10 Home 64bit / 0.89 kg / black",
+        "features": {
+          "manufacturer": "Acer",
+          "displaySize": "14'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i7"
+        }
+      },
+      "1": {
+        "title": "Laptop Dell XPS 13 9380" ,
+        "description": "Display 17.3' IPS (1920x1080) Full HD, matte / Intel Core i7-8550U (1.8 - 4.0 GHz) / RAM 16 GB / SSD 512 GB / Intel UHD Graphics 620 / DVD+/-RW / Wi-Fi / Bluetooth / webcam / Windows 10 Pro / 2.8 kg / gray",
+        "features": {
+          "manufacturer": "Dell",
+          "displaySize": "17.3'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i7"
+        }
+      },
+      "2": {
+        "title": "Laptop ASUS ZenBook S13",
+        "description": "Display 13.9' IPS (1920x1080) Full HD, matte / Intel Core i7-8565U (1.8 - 4.6 GHz) / RAM 16 GB / SSD 1 TB / Intel UHD Graphics 620 / without OD / Wi-Fi / Bluetooth / webcam / Windows 10 Home / 1.1 kg / silver / case",
+        "features": {
+          "manufacturer": "Asus",
+          "displaySize": "13.3'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i7"
+        }
+      },
+      "3": {
+        "title": "Laptop ASUS FX504GM",
+        "description": "Display 15.6' (1920x1080) Full HD, matte / Intel Core i5-8300H (2.3 - 4.0 GHz) / RAM 8 GB / 1 TB + 8 GB SSHD / nVidia GeForce GTX 1060, 6 GB / without OD / LAN / Wi-Fi / Bluetooth / webcam / Windows 10 Home / 2.3 kg / black",
+        "features": {
+          "manufacturer": "Asus",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "8 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "4": {
+        "title": "Laptop ASUS ZenBook Pro UX550GD",
+        "description": "Display 15.6' (1920x1080) Full HD, matte / Intel Core i5-8300H (2.3 - 4.0 GHz) / RAM 8 GB / SSD 256 GB / nVidia GeForce GTX 1050, 4 GB / without OD / Wi-Fi / Bluetooth / webcam / Windows 10 Pro 64bit / 1.89 kg / blue",
+        "features": {
+          "manufacturer": "Asus",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "8 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "5": {
+        "title": "Laptop HP Omen 15 (4PR16EA)",
+        "description": "Display 15.6' IPS (1920x1080) Full HD, glossy with anti-glare coating / Intel Core i7-8750H (2.2 - 4.1 GHz) / RAM 8 GB / HDD 1 TB + SSD 128 GB / nVidia GeForce GTX 1050 Ti , 4 GB / without OD / LAN / Wi-Fi / Bluetooth / webcam / Windows 10 Home 64bit / 2.38 kg / black",
+        "features": {
+          "manufacturer": "HP",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "8 GB",
+          "processor": "Intel Core i7"
+        }
+      },
+      "6": {
+        "title": "Laptop Lenovo IdeaPad 330S-15IKB",
+        "description": "Display 15.6' IPS (1920x1080) Full HD, glossy with anti-glare coating / Intel Core i5-8250U (1.6 - 3.4 GHz) / RAM 6 GB / HDD 1 TB / nVidia GeForce GTX 1050, 4 GB / without OD / Wi-Fi / Bluetooth / webcam / Windows 10 Home 64bit / 1.87 kg / gray",
+        "features": {
+          "manufacturer": "Lenovo",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "6 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "7": {
+        "title": "Laptop Dell Latitude (N013L530013ERC_W10)",
+        "description": "Display 13.3' WVA (1920x1080) Full HD, matte / Intel Core i5-8365U (1.6 - 4.1 GHz) / RAM 16 GB / SSD 512 GB / Intel UHD Graphics 620 / without OD / LAN / Wi-Fi / Bluetooth / webcam / Windows 10 Pro 64bit / 1.24 kg / black",
+        "features": {
+          "manufacturer": "Dell",
+          "displaySize": "13.3'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "8": {
+        "title": "Laptop Acer Predator Helios 500PH517-51",
+        "description": "Display 17.3' IPS (1920x1080) Full HD, matte / Intel Core i5-8300H (2.3 - 4.0 GHz) / RAM 16 GB / HDD 1 TB + SSD 256 GB / nVidia GeForce GTX 1070, 8 GB / without OD / LAN / Wi-Fi / Bluetooth / webcam / Windows 10 Home / 4 kg / black",
+        "features": {
+          "manufacturer": "Acer",
+          "displaySize": "17.3'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "9": {
+        "title": "Laptop HP 15s-eq2056ua (4A7P1EA)",
+        "description": "Display 15.6' IPS (1920x1080) Full HD, matte / AMD Ryzen 3 5300U (2.6 - 3.8 GHz) / RAM 16 GB / SSD 512 GB / AMD Radeon Graphics / without OD / Wi-Fi / Bluetooth / webcam / DOS / 1.69 kg / Silver",
+        "features": {
+          "manufacturer": "HP",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "AMD Ryzen 3"
+        }
+      },
+      "10": {
+        "title": "Laptop HP Pavilion 15-eh1106ua (4A7N2EA)",
+        "description": "Display 15.6' IPS (1920x1080) Full HD, matte / AMD Ryzen 5 5500U (2.1 - 4.0 GHz) / RAM 16 GB / SSD 512 GB / AMD Radeon Graphics / without OD / Wi-Fi / Bluetooth / webcam / DOS / 1.75 kg / Silver",
+        "features": {
+          "manufacturer": "HP",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "AMD Ryzen 5"
+        }
+      },
+      "11": {
+        "title": "Laptop Lenovo IdeaPad 3 15IAU7 (82RK00TWRA)",
+        "description": "Display 15.6' IPS (1920x1080) Full HD, matte / Intel Core i5-1235U (3.3 - 4.4 GHz) / RAM 16 GB / SSD 512 GB / Intel Iris Xe Graphics / without OD / Wi-Fi / Bluetooth / webcam / without OS / 1.63 kg / gray",
+        "features": {
+          "manufacturer": "Lenovo",
+          "displaySize": "15.6'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "Intel Core i5"
+        }
+      },
+      "12": {
+        "title": "Laptop Lenovo Legion 5 Pro-16",
+        "description": "Lenovo Legion 5 Pro-16 Laptop / AMD Ryzen™ 7 5800H / 32 GB RAM / 512 GB SSD / NVIDIA GeForce RTX 3050 Ti + AMD Radeon™ graphics card / Matte, LED, IPS / for gaming",
+        "features": {
+          "manufacturer": "Lenovo",
+          "displaySize": "16'",
+          "displayResolution": "2560x1600",
+          "ramSize": "32 GB",
+          "processor": "AMD Ryzen 7"
+        }
+      },
+      "13": {
+        "title": "Laptop ASUS ROG Zephyrus G14 GA401QH (GA401QH-211.ZG14BL)",
+        "description": "Display 14' IPS (1920x1080) Full HD, matte / AMD Ryzen 7 5800HS (2.8 - 4.4 GHz) / RAM 16 GB / SSD 512 GB / nVidia GeForce GTX 1650, 4 GB / without OD / Wi-Fi / Bluetooth / Windows 10 Home / 1.7 kg / gray",
+        "features": {
+          "manufacturer": "ASUS",
+          "displaySize": "14'",
+          "displayResolution": "1920x1080",
+          "ramSize": "16 GB",
+          "processor": "AMD Ryzen 7"
+        }
+      },
+      "14": {
+        "title": "Laptop ASUS VivoBook 14 F415EA (F415EA-AS31) Gray",
+        "description": "Display 14' (1920x1080) Full HD, matte / Intel Core i3-1115G4 (3.0 - 4.1 GHz) / RAM 4 GB / SSD 128 GB / Intel UHD Graphics / no OD / Wi-Fi / Bluetooth / webcam / Windows 11 Home / 1.4 kg / gray",
+        "features": {
+          "manufacturer": "ASUS",
+          "displaySize": "14'",
+          "displayResolution": "1920x1080",
+          "ramSize": "4 GB",
+          "processor": "Intel Core i3"
+        }
+      },
+      "15": {
+        "title": "Laptop ASUS ROG Strix G18 (2023) G814JI-N6070 (90NR0D01-M003B0)",
+        "description": "Display 18' IPS (2560x1600) WQXGA 240 Hz, matte / Intel Core i9-13980HX (4.0 - 5.6 GHz) / RAM 32 GB / SSD 1 TB / nVidia GeForce RTX 4070, 8 GB / without OD / LAN / Wi-Fi / Bluetooth / webcam / without OS / 3.0 kg / gray",
+        "features": {
+          "manufacturer": "ASUS",
+          "displaySize": "18'",
+          "displayResolution": "2560x1600",
+          "ramSize": "32 GB",
+          "processor": "Intel Core i9"
+        }
+      },
+      "16": {
+        "title": "Laptop ACER Predator Helios 18 PH18-71-90BJ",
+        "description": "Gaming ACER Predator Helios 18 PH18-71-90BJ, (NHQKREX006), Intel Core i9-13900HX, 5.4GHz, 18' WQXGA, 250Hz, 32GB, SSD 2TB, NVIDIA GeForce RTX 4080 12GB, Windows 11 Home",
+        "features": {
+          "manufacturer": "ACER",
+          "displaySize": "18'",
+          "displayResolution": "2560x1600",
+          "ramSize": "32 GB",
+          "processor": "Intel Core i9"
+        }
+      },
+      "17": {
+        "title": "Laptop ASUS ProArt Studiobook 16 OLED H7600ZX-L2033X",
+        "description": "Display 16' OLED (3840x2400) WQUXGA, glossy / Intel Core i9-12900H (3.8 - 5.0 GHz) / RAM 64 GB / SSD 2 TB / nVidia GeForce RTX 3080 Ti, 16 GB / without OD / LAN / Wi-Fi / Bluetooth / webcam / Windows 11 Pro / 2.4 kg / Black",
+        "features": {
+          "manufacturer": "ASUS",
+          "displaySize": "16'",
+          "displayResolution": "2560x1600",
+          "ramSize": "64 GB",
+          "processor": "Intel Core i9"
+        }
+      },
+      "18": {
+        "title": "Laptop Lenovo ThinkPad P16 Gen 1 (21D6003QRA)",
+        "description": "Display 16' IPS (2560x1600) WQXGA, matte / Intel Core i9-12950HX (3.6 - 5.0 GHz) / RAM 64 GB / SSD 1 TB / nVidia RTX A4500, 16 GB / without OD / Wi-Fi / Bluetooth / webcam / Windows 11 Pro / 2.95 kg / gray",
+        "features": {
+          "manufacturer": "Lenovo",
+          "displaySize": "16'",
+          "displayResolution": "2560x1600",
+          "ramSize": "64 GB",
+          "processor": "Intel Core i9"
+        }
+      },
+      "19": {
+        "title": "Laptop Dell Latitude 3410 (N001L341014GE_UBU)",
+        "description": "Display 14' (1366x768) WXGA HD / Dual Core Intel Core i3-10110U (2.1 - 4.1 GHz) / RAM 4GB DDR4 / HDD 1TB / Integrated Video Card / Linux / Black",
+        "features": {
+          "manufacturer": "Dell",
+          "displaySize": "14'",
+          "displayResolution": "1366x768",
+          "ramSize": "4 GB",
+          "processor": "Intel Core i3"
+        }
+      },
+      "20": {
+        "title": "Laptop Dell Latitude 3490",
+        "description": "Dell Latitude 3490 / 14' (1366x768) TN / Intel Core i3-8130U (2 (4) cores 2.2 - 3.4 GHz) / 8 GB DDR4 / 256 GB SSD + 250 GB HDD / Intel UHD Graphics 620 / WebCam / HDMI",
+        "features": {
+          "manufacturer": "Dell",
+          "displaySize": "14'",
+          "displayResolution": "1366x768",
+          "ramSize": "8 GB",
+          "processor": "Intel Core i3"
+        }
+      },
+      "21": {
+        "title": "Laptop 17.3' HP 17-cn0010ca (2L7P6UA)",
+        "description": "HP 17-cn0010ca / 17.3' TN+film (1600x900) HD 60Hz / Intel Pentium Silver N6000 (1.1 - 3.3 GHz) / RAM 8GB / SSD 256GB / Integrated, Intel UHD Graphics / Windows 10 Home / Black",
+        "features": {
+          "manufacturer": "HP",
+          "displaySize": "17.3'",
+          "displayResolution": "1600x900",
+          "ramSize": "8 GB",
+          "processor": "Intel Core i3"
+        }
+      },
+      "22": {
+        "title": "Laptop Lenovo V15 (82KB0006RA)",
+        "description": "15.4'' (1280x800) WXGA TN+film Matte Display / Dual Core Intel Core i3-1115G4 (3.0 - 4.1 GHz) / 8GB DDR4 / 256GB SSD / Integrated Video Card / Windows 11 Professional / Black",
+        "features": {
+          "manufacturer": "Lenovo",
+          "displaySize": "15.6'",
+          "displayResolution": "1280x800",
+          "ramSize": "6 GB",
+          "processor": "Intel Core i3"
+        }
+      },
+      "23": {
+        "title": "Laptop ASUS VivoBook 17 D712DA",
+        "description": "ASUS VivoBook 17 D712DA AMD Ryzen™ 3 3250U / 8 GB RAM / 512 GB SSD / For Multimedia",
+        "features": {
+          "manufacturer": "ASUS",
+          "displaySize": "17.3'",
+          "displayResolution": "1600x900",
+          "ramSize": "8 GB",
+          "processor": "AMD Ryzen 3"
+        }
+      }
+    },
+    "tshirts": {
+      "24": {
+        "title": "T-shirt",
+        "description": "Black, no print",
+        "features": {
+          "color": "Black",
+          "size": "M",
+          "material": "Cotton",
+          "print": "No print"
+        }
+      },
+      "25": {
+        "title": "T-shirt",
+        "description": "White, no print",
+        "features": {
+          "color": "White",
+          "size": "L",
+          "material": "Cotton",
+          "print": "No print"
+        }
+      },
+      "26": {
+        "title": "T-shirt",
+        "description": "Blue with a print",
+        "features": {
+          "color": "Blue",
+          "size": "L",
+          "material": "Polyester",
+          "print": "With a print"
+        }
+      },
+      "27": {
+        "title": "T-shirt Fruit of the loom",
+        "description": "Composition 100% cotton. Density from 160 g/m2. Printing method on light fabrics - direct digital printing. On dark fabrics - thermal films (flex). Wear resistance is guaranteed! In order that the T-shirt would serve you for a long time - we recommend washing the product inside out at a temperature up to 40 degrees, in the mode of hand or delicate washing.",
+        "features": {
+          "color": "Gray",
+          "size": "S",
+          "material": "Cotton",
+          "print": "With a print"
+        }
+      },
+      "28": {
+        "title": "T-shirt Fruit of the loom",
+        "description": "Composition 100% cotton. Density from 160 g/m2. Printing method on light fabrics - direct digital printing. On dark fabrics - thermal films (flex). Wear resistance is guaranteed! In order that the T-shirt would serve you for a long time - we recommend washing the product inside out at a temperature of up to 40 degrees Celsius, in manual or delicate washing mode.",
+        "features": {
+          "color": "White",
+          "size": "XL",
+          "material": "Cotton",
+          "print": "With a print"
+        }
+      },
+      "29": {
+        "title": "T-shirt Sprintom",
+        "description": "Men's T-shirt with Sprintom print. The print is applied under the order. Tailoring - Ukraine. Material: cotton 100%. Season: spring/summer",
+        "features": {
+          "color": "Black",
+          "size": "L",
+          "material": "Cotton",
+          "print": "With a print"
+        }
+      },
+      "30": {
+        "title": "T-shirt Jiva",
+        "description": "T-shirt material - 100% cotton, silkscreen printing. Author's drawing from the designer of the brand.",
+        "features": {
+          "color": "Gray",
+          "size": "XL",
+          "material": "Polyester",
+          "print": "With a print"
+        }
+      },
+      "31": {
+        "title": "T-shirt Jiva",
+        "description": "OVS is a popular and much-loved clothing brand founded in 1972 in the small Italian city of Padua. The brand is part of the Gruppo Coin company and is engaged in the production of women's, men's, children's clothing, as well as footwear and accessories.",
+        "features": {
+          "color": "White",
+          "size": "S",
+          "material": "Polyester",
+          "print": "With text"
+        }
+      }
+    }
+  }
+}
